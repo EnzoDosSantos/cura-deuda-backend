@@ -5,7 +5,6 @@ const routes = Router()
 
 routes.get("/", (req, res) => {
     const guide = {
-        "NECESITAS UN API KEY": "Lo lo puedes conseguir en *pagina* ",
         "GET /cities": "Devuelve todas las ciudades",
         "GET /cities?cp= *cp* ": "Devuelve todas las ciudades con el código postal indicado",
         "GET /cities?municipio= *municipio* ": "Devuelve todas las ciudades con el municipio indicado",
